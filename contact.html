@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="contact1">
+        <div style="text-align:center">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <form action="https://formspree.io/f/maygbjwl" method="POST">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="first name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="last name">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">India</option>
+                        <option value="canada">England</option>
+                        <option value="usa">USA</option>
+                        <option value="usa">Any Other Country</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
